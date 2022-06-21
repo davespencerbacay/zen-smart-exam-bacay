@@ -1,0 +1,16 @@
+/* panel */
+.panel {
+  border-radius: 6px;
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+  margin: 1rem 3rem 0 0;
+  display: inline-block;
+}
+.panel.active {
+  border: 1px solid #0b6bf2;
+  box-shadow: 0 0 15px 5px #2e5bff33;
+}
+.panel.inactive {
+  border: 1px solid #0243eb;
+}

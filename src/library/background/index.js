@@ -1,4 +1,5 @@
 import React from "react";
+import "./background.css";
 
 const Background = (props) => {
   const variant =

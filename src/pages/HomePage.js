@@ -1,8 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
-import Panel from "../library/panels";
 import { Container } from "react-bootstrap";
 import Background from "../library/background";
+import PanelSection from "../sections/PanelSection";
+import ButtonSection from "../sections/ButtonSection";
+import TableSection from "../sections/TableSection";
 
 const HomePage = () => {
   return (
@@ -11,12 +13,13 @@ const HomePage = () => {
       <main>
         <Container>
           <Background variant="default">
-            <div className="panel-container">
-              <h5>PANELS</h5>
-              <Panel variant="active" />
-              <Panel variant="inactive" />
-              <Panel variant="default" />
-            </div>
+            <PanelSection />
+          </Background>
+          <Background variant="">
+            <ButtonSection />
+          </Background>
+          <Background variant="">
+            <TableSection />
           </Background>
         </Container>
       </main>
